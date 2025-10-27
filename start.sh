@@ -17,3 +17,6 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload --reload-dir app
 
 # This line will be reached if uvicorn stops (e.g., Ctrl+C) or if the uvicorn command above fails.
 echo "FastAPI application process finished or failed to start."
+
+
+#npx @tailwindcss/cli -i app/src/static/css/input.css -o app/src/static/css/output.css --watch
